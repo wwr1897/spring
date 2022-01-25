@@ -1,5 +1,6 @@
 pluginManagement {
 	repositories {
+		maven { url 'https://repo.huaweicloud.com/repository/maven/' }
 		gradlePluginPortal()
 		maven { url "https://repo.spring.io/release" }
 	}
@@ -54,3 +55,5 @@ settings.gradle.projectsLoaded {
 		}
 	}
 }
+include 'myspring'
+

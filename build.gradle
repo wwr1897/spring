@@ -248,9 +248,10 @@ configure(allprojects) { project ->
 			cacheChangingModulesFor 0, "seconds"
 		}
 		repositories {
+			maven { url 'https://repo.huaweicloud.com/repository/maven/' }
 			mavenCentral()
 			maven { url "https://repo.spring.io/libs-spring-framework-build" }
-		}
+			}
 	}
 	configurations.all {
 		resolutionStrategy {
